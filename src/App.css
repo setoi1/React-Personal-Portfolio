@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.App {
+  background-color: rgb(32, 32, 32);
+}
+
+.default-navbar-nav {
+  height: 5vh;
+  color: black;
+  background-color: black;
+}
+
+.default-navbar-navlink {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  transition: 250ms;
+  text-decoration: none;
+}
+
+.default-navbar-navlink:hover, .default-navbar-navlink:active {
+  color: rgb(163, 161, 161);
+}
+
+.navbar-icon {
+  color: white;
+}
+
+.welcome-text {
+  min-height: 111vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
