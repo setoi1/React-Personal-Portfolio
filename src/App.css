@@ -23,6 +23,7 @@ body {
   color: white;
   transition: 250ms;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .default-navbar-navlink:hover, .default-navbar-navlink:active {
@@ -41,5 +42,3 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-

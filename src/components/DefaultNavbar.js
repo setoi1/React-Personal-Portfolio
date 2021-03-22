@@ -1,6 +1,5 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
-import { AppBar, Toolbar, IconButton, Typography  } from '@material-ui/core';
+import { AppBar, Toolbar, Typography  } from '@material-ui/core';
 import LanguageIcon from '@material-ui/icons/Language';
 import { Link } from 'react-scroll';
 
