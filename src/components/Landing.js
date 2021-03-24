@@ -1,15 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const Landing = () => {
-    return (
-      <>
-        <div id="landing-section">
-          <div className="welcome-text">
-            <h4>Welcome</h4>
-          </div>
-        </div>
-      </>
-    )
+  return (
+    <div className="landing-section">
+      <div className="header-text">
+        <h3>Welcome</h3>
+      </div>
+    </div>
+  )
 }
 
-export default Landing
+export default Landing;
