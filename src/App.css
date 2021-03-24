@@ -1,44 +1,98 @@
 body {
-  background-color: white;
-  color: black;
   font-family: 'Roboto';
-  text-align: center;
 }
 
 .App {
-  background-color: rgb(32, 32, 32);
+  background-color: white;
 }
 
 .default-navbar-nav {
   height: 5vh;
-  color: black;
   background-color: black;
 }
 
-.default-navbar-navlink {
+  .default-navbar-navlink {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    font-size: 20px;
+    color: white;
+    transition: 250ms;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .default-navbar-navlink:hover, .default-navbar-navlink:active {
+    color: rgb(163, 161, 161);
+  }
+
+  .navbar-icon {
+    color: white;
+  }
+
+.landing-section {
   display: flex;
-  align-items: center;
-  padding: 20px;
-  font-size: 20px;
-  color: white;
-  transition: 250ms;
-  text-decoration: none;
-  cursor: pointer;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("C:\Users\iseto\Desktop\vscode\JavaScript\portfolio\src\components\images\landingBackground.jpg");
 }
 
-.default-navbar-navlink:hover, .default-navbar-navlink:active {
-  color: rgb(163, 161, 161);
+.about-section {
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
 }
 
-.navbar-icon {
-  color: white;
-}
-
-.welcome-text {
-  min-height: 111vh;
+.projects-section {
+  height: 100vh;
+  background-color: green;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+  .project-grid-container {
+    display: flex;
+    justify-content: center;
+
+  }
+
+    .project-row-container {
+      display: flex;
+      justify-content: center;
+    }
+
+      .project-element {
+        width: 125px;
+        height: 250px;
+      }
+
+.contacts-section {
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section {
+  height: 250px;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+}
+  .footer-text {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
