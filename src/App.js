@@ -5,19 +5,17 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <DefaultNavbar />
-        <Landing />
-        <About />
-        <Projects />
-        <Contacts />
-      </div>
-    </Router>
+    <div className="App">
+      <DefaultNavbar />
+      <Landing />
+      <About />
+      <Projects />
+      <Contacts />
+      <Footer />
+    </div>
   );
 }
 
