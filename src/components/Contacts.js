@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 const Contacts = () => {
     return (
       <>
-        <div id="contacts-section">
-          <div className="welcome-text">
-            <h4>Contacts</h4>
+        <div className="contacts-section">
+          <div className="header-text">
+            <h3>Contacts</h3>
           </div>
         </div>
       </>
