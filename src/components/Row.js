@@ -1,17 +1,32 @@
 import React from 'react';
-import { Grid, Paper } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
+import ProjectCard from '../components/ProjectCard';
 
 const Row = () => {
+
+  const value = 6;
+
   return (
     <>
-      <Grid item xs={4}>
-        <Paper className="project-element" elevation={3}>Item 1</Paper>
-      </Grid>
-      <Grid item xs={4}>
-        <Paper className="project-element" elevation={3}>Item 2</Paper>
-      </Grid>
-      <Grid item xs={4}>
-        <Paper className="project-element" elevation={3}>Item 3</Paper>
+      <Grid container spacing={6}>
+        <Grid item xs={value}>
+          <ProjectCard 
+            title="Project 1" 
+            description="Description 1"
+          />
+        </Grid>
+        <Grid item xs={value}>
+          <ProjectCard 
+            title="Project 2" 
+            description="Description 2" 
+          />
+        </Grid>
+        <Grid item xs={value}>
+          <ProjectCard 
+            title="Project 3" 
+            description="Description 3"
+          />
+        </Grid>
       </Grid>
     </>
   );
