@@ -7,7 +7,7 @@ const Landing = () => {
         <h3>Welcome</h3>
       </div>
     </div>
-  )
+  );
 }
 
 export default Landing;
