@@ -3,7 +3,7 @@ import { Card, CardMedia, CardContent, CardActions, Typography, Button } from '@
 
 const ProjectCard = (props) => {
   return (
-    <Card className="project-item-container">
+    <Card className="project-card-container">
       <CardMedia 
         src="img"
         height="300"
