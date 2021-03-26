@@ -6,6 +6,8 @@ body {
   background-color: white;
 }
 
+/*-------------------------*/
+
 .default-navbar-nav {
   height: 5vh;
   background-color: black;
@@ -30,6 +32,8 @@ body {
     color: white;
   }
 
+/*-------------------------*/
+
 .landing-section {
   display: flex;
   justify-content: center;
@@ -37,12 +41,16 @@ body {
   background-image: url("C:\Users\iseto\Desktop\vscode\JavaScript\portfolio\src\images\landingBackground.jpg");
 }
 
+/*-------------------------*/
+
 .about-section {
   height: 100vh;
   background-color: rgb(32, 32, 32);
   display: flex;
   justify-content: center;
 }
+
+/*-------------------------*/
 
 .projects-section {
   height: 100vh;
@@ -52,22 +60,29 @@ body {
   justify-content: center;
 }
 
-  .project-grid-container {
+  .projects-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-
   }
 
-    .project-row-container {
+    .project-grid-container {
       display: flex;
       justify-content: center;
     }
 
-      .project-item-container {
-        width: 400px;
-        height: 300px;
-        background-image: url("C:\Users\iseto\Desktop\vscode\JavaScript\portfolio\src\images\javascript-resized.jpg");
+      .project-row-container {
+        display: flex;
+        justify-content: center;
       }
+
+        .project-card-container {
+          width: 200px;
+          height: 300px;
+          background-image: url("C:\Users\iseto\Desktop\vscode\JavaScript\portfolio\src\images\javascript-resized.jpg");
+        }
+
+/*-------------------------*/
 
 .contacts-section {
   height: 100vh;
@@ -75,6 +90,8 @@ body {
   display: flex;
   justify-content: center;
 }
+
+/*-------------------------*/
 
 .footer-section {
   height: 250px;
@@ -89,6 +106,8 @@ body {
     align-items: center;
     color: white;
   }
+
+/*-------------------------*/
 
 .header-text {
   display: flex;
