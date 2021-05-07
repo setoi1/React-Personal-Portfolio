@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-  background-color: white;
+  background-color: sandybrown;
 }
 
 /*-------------------------*/
@@ -24,6 +24,10 @@ body {
     cursor: pointer;
   }
 
+  .default-navbar-navlink:last-child {
+    margin-left: auto;
+  }
+
   .default-navbar-navlink:hover, .default-navbar-navlink:active {
     color: rgb(163, 161, 161);
   }
@@ -38,14 +42,13 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-image: url("C:\Users\iseto\Desktop\vscode\JavaScript\portfolio\src\images\landingBackground.jpg");
 }
 
 /*-------------------------*/
 
 .about-section {
   height: 100vh;
-  background-color: rgb(32, 32, 32);
+  background-color: sandybrown;
   display: flex;
   justify-content: center;
 }
@@ -54,13 +57,19 @@ body {
 
 .projects-section {
   height: 100vh;
-  background-color: rgb(32, 32, 32);
+  background-color: sandybrown;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
   .projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .projects-container-items {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -79,14 +88,21 @@ body {
         .project-card-container {
           width: 200px;
           height: 300px;
-          background-image: url("C:\Users\iseto\Desktop\vscode\JavaScript\portfolio\src\images\javascript-resized.jpg");
         }
 
 /*-------------------------*/
 
 .contacts-section {
   height: 100vh;
-  background-color: rgb(32, 32, 32);
+  background-color: sandybrown;
+  display: flex;
+  justify-content: center;
+}
+
+/*-------------------------*/
+
+.message-page {
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
