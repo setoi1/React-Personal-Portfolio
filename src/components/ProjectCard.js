@@ -12,15 +12,18 @@ const ProjectCard = (props) => {
         title={props.title}
       />
       <CardContent>
-        <Typography variant="h5" component="h2">
+        <Typography variant="h5" component="h5">
           {props.title}
+        </Typography>
+        <Typography variant="h6" component="h6">
+          {props.techStack}
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
           {props.description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href={props.link}>
           Link
         </Button>
       </CardActions>
