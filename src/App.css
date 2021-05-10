@@ -36,10 +36,26 @@ body {
     color: white;
   }
 
+
+.section-header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.page-transition {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
 /*-------------------------*/
 
 .landing-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
 }
@@ -50,8 +66,28 @@ body {
   height: 100vh;
   background-color: sandybrown;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
+  margin-left: 30rem;
+  margin-right: 30rem;
 }
+
+  .about-container {
+
+  }
+
+    .about-description {
+
+    }
+
+      .about-arrow-button {
+
+      }
+
+      .about-arrow-icon {
+
+      }
 
 /*-------------------------*/
 
@@ -64,9 +100,7 @@ body {
 }
 
   .projects-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
   }
 
   .projects-container-items {
@@ -86,6 +120,8 @@ body {
       }
 
         .project-card-container {
+          color: black;
+          background-color: black;
           width: 200px;
           height: 300px;
         }
@@ -96,8 +132,40 @@ body {
   height: 100vh;
   background-color: sandybrown;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
+
+  .contacts-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contacts-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contacts-list-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    text-decoration: none;
+  }
+
+  .contacts-item-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .contacts-list-item:link {
+    text-decoration: none;
+  }
+
+  .contacts-list-item:visited {
+    text-decoration: none;
+  }
 
 /*-------------------------*/
 
@@ -124,11 +192,3 @@ body {
   }
 
 /*-------------------------*/
-
-.header-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
