@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography  } from '@material-ui/core';
 import LanguageIcon from '@material-ui/icons/Language';
+import { Route, IndexRoute } from 'react-router';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -20,9 +21,9 @@ const Navbar = () => {
         <Link className="default-navbar-navlink"  to="contacts-section" spy={true} smooth={true} duration={750}>
           <Typography>Contacts</Typography>
         </Link>
-        <Link className="default-navbar-navlink"  to="message-page" spy={true} smooth={true} duration={750}>
+        <a className="default-navbar-navlink" href="/message">
           <Typography>Message</Typography>
-        </Link>
+        </a>
       </Toolbar>
     </AppBar>
   );
