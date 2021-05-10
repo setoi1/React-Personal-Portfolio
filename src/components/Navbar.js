@@ -1,7 +1,6 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography  } from '@material-ui/core';
 import LanguageIcon from '@material-ui/icons/Language';
-import { Route, IndexRoute } from 'react-router';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
