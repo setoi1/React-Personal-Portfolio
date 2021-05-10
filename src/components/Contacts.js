@@ -12,17 +12,15 @@ const Contacts = () => {
       <div className="contacts-container">
         <ul className="contacts-list">
           <li className="contacts-list-item">
-            <a className="contacts-item-link" href="">
               <MailIcon />
-            </a>
           </li>
           <li className="contacts-list-item">
-            <a className="contacts-item-link" href="https://www.linkedin.com/in/ianseto/" target="_blank">
+            <a className="contacts-item-link" href="https://www.linkedin.com/in/ianseto/" rel="noreferrer" target="_blank">
               <LinkedInIcon />
             </a>
           </li>
           <li className="contacts-list-item">
-            <a className="contacts-item-link" href="https://github.com/setoi1" target="_blank">
+            <a className="contacts-item-link" href="https://github.com/setoi1" rel="noreferrer" target="_blank">
               <GitHubIcon />
             </a>
           </li>
