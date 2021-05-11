@@ -31,8 +31,8 @@ const Projects = () => {
         </Grid>
         <div className="page-transition">
           <Link className="contacts-section-link"  to="contacts-section" spy={true} smooth={true} duration={750}>
-            <Button className="contacts-arrow-button"> 
-              <ArrowDropDownCircleIcon className="contacts-arrow-icon" />
+            <Button> 
+              <ArrowDropDownCircleIcon className="page-transition" />
             </Button>
           </Link>
         </div>
