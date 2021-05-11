@@ -5,15 +5,16 @@ const ProjectCard = (props) => {
   return (
     <Card className="project-card-container">
       <CardMedia 
-        src="img"
-        height="300"
-        width="600"
-        image="" 
-        title={props.title}
+        height="128"
+        width="128"
+        image={props.logo}
       />
       <CardContent>
         <Typography variant="h5" component="h5">
           {props.title}
+        </Typography>
+        <Typography variant="h6" component="h6">
+          {props.date}
         </Typography>
         <Typography variant="h6" component="h6">
           {props.techStack}
