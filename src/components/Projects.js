@@ -17,15 +17,29 @@ const Projects = () => {
             <ProjectCard 
               title="Finance Manager" 
               techStack="Python" 
+              date="Spring 2021"
               description="A simple Finance Managing Application built with Python and tkinter" 
-              link="https://github.com/marinom1/FiMan-Financial_Manager" 
+              link="https://github.com/marinom1/FiMan-Financial_Manager"
+              logo="C:\Users\iseto\Desktop\vscode\JavaScript\Portfolio\src\images\python-logo.jpg"
+            />
+          </Grid>
+          <Grid item>
+            <ProjectCard 
+              title="Connect4Ahead" 
+              techStack="Java"
+              date="Fall 2019"
+              description="A remixed version of the popular board game Connect 4 featuring a different style of rulesets"
+              link="https://github.com/setoi1/Connect4Ahead"
+              logo="C:\Users\iseto\Desktop\vscode\JavaScript\Portfolio\src\images\java-logo.jpg"
             />
           </Grid>
           <Grid item>
             <ProjectCard 
               title="Business Manager" 
               techStack="JavaScript, React"
+              date="Summer 2021"
               description="Work in Progress"
+              link=""
             />
           </Grid>
         </Grid>
