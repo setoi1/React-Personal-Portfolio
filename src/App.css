@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-  background-color: sandybrown;
+  background-color: #131313;
 }
 
 /*-------------------------*/
@@ -42,13 +42,14 @@ body {
   justify-content: center;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
 .page-transition {
+  color: white;
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 /*-------------------------*/
@@ -64,36 +65,24 @@ body {
 
 .about-section {
   height: 100vh;
-  background-color: sandybrown;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin-left: 30rem;
   margin-right: 30rem;
-}
+} 
 
   .about-container {
-
+    color: white;
   }
 
-    .about-description {
-
-    }
-
-      .about-arrow-button {
-
-      }
-
-      .about-arrow-icon {
-
-      }
+ 
 
 /*-------------------------*/
 
 .projects-section {
   height: 100vh;
-  background-color: sandybrown;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,7 +119,6 @@ body {
 
 .contacts-section {
   height: 100vh;
-  background-color: sandybrown;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,10 +126,13 @@ body {
 
   .contacts-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
   .contacts-list {
+    display: flex;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -150,12 +141,14 @@ body {
   .contacts-list-item {
     display: flex;
     flex-direction: row;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 25px;
     text-decoration: none;
   }
 
   .contacts-item-link {
-    color: black;
+    color: white;
     text-decoration: none;
   }
 
