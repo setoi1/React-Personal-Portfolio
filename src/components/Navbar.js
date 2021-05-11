@@ -1,7 +1,8 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography  } from '@material-ui/core';
-import LanguageIcon from '@material-ui/icons/Language';
+import { AppBar, Toolbar, Button, Typography  } from '@material-ui/core';
 import { Link } from 'react-scroll';
+import LanguageIcon from '@material-ui/icons/Language';
+import MailIcon from '@material-ui/icons/Mail';
 
 const Navbar = () => {
   return (
@@ -20,7 +21,9 @@ const Navbar = () => {
         <Link className="navbar-navlink"  to="contacts-section" spy={true} smooth={true} duration={750}>
           <Typography>Contacts</Typography>
         </Link>
-        <Typography className="navbar-navlink">Message</Typography>
+        <Button className="navbar-navlink" disabled>
+          <MailIcon className="navbar-navlink"/>
+        </Button>
       </Toolbar>
     </AppBar>
   );
