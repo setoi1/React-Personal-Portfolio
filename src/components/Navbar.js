@@ -6,23 +6,21 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   return (
     <AppBar>
-      <Toolbar className="default-navbar-nav">
+      <Toolbar className="navbar-nav">
         <LanguageIcon className="navbar-icon" />
-        <Link className="default-navbar-navlink"  to="landing-section" spy={true} smooth={true} duration={750}>
+        <Link className="navbar-navlink"  to="landing-section" spy={true} smooth={true} duration={750}>
           <Typography>Home</Typography>
         </Link>
-        <Link className="default-navbar-navlink"  to="about-section" spy={true} smooth={true} duration={750}>
+        <Link className="navbar-navlink"  to="about-section" spy={true} smooth={true} duration={750}>
           <Typography>About</Typography>
         </Link>
-        <Link className="default-navbar-navlink"  to="projects-section" spy={true} smooth={true} duration={750}>
+        <Link className="navbar-navlink"  to="projects-section" spy={true} smooth={true} duration={750}>
           <Typography>Projects</Typography>
         </Link>
-        <Link className="default-navbar-navlink"  to="contacts-section" spy={true} smooth={true} duration={750}>
+        <Link className="navbar-navlink"  to="contacts-section" spy={true} smooth={true} duration={750}>
           <Typography>Contacts</Typography>
         </Link>
-        <a className="default-navbar-navlink" href="/message">
-          <Typography>Message</Typography>
-        </a>
+        <Typography className="navbar-navlink">Message</Typography>
       </Toolbar>
     </AppBar>
   );
