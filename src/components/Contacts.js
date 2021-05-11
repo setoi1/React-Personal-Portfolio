@@ -1,4 +1,5 @@
 import React from 'react';
+import MailIcon from '@material-ui/icons/Mail';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
@@ -10,6 +11,11 @@ const Contacts = () => {
           <h3>Contacts</h3>
         </div>
           <ul className="contacts-list">
+            <li className="contacts-list-item">
+              <a className="contacts-item-link" href="mailto:i.seto00@gmail.com" rel="noreferrer" target="_blank">
+                <MailIcon />
+              </a>
+            </li>
             <li className="contacts-list-item">
               <a className="contacts-item-link" href="https://www.linkedin.com/in/ianseto/" rel="noreferrer" target="_blank">
                 <LinkedInIcon />
