@@ -11,7 +11,7 @@ const Landing = () => {
           <h3>Explore</h3>
         </div>
         <div className="page-transition">
-          <Link className="about-section-link"  to="about-section" spy={true} smooth={true} duration={750}>
+          <Link className="about-section-link" to="about-section" spy={true} smooth={true} duration={750}>
             <Button className="about-arrow-button"> 
               <ArrowDropDownCircleIcon className="page-transition" />
             </Button>
