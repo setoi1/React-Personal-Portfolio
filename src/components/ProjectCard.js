@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
         src="img"
         height="300"
         width="600"
-        image="C:\Users\iseto\Desktop\vscode\JavaScript\portfolio\src\images\javascript-resized.jpg" 
+        image="" 
         title={props.title}
       />
       <CardContent>
