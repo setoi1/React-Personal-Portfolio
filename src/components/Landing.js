@@ -13,7 +13,7 @@ const Landing = () => {
         <div className="page-transition">
           <Link className="about-section-link"  to="about-section" spy={true} smooth={true} duration={750}>
             <Button className="about-arrow-button"> 
-              <ArrowDropDownCircleIcon className="about-arrow-icon" />
+              <ArrowDropDownCircleIcon className="page-transition" />
             </Button>
           </Link>
         </div>
