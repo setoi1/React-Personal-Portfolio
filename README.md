@@ -2,6 +2,6 @@
 
 Built with React, JavaScript, HTML, CSS, and Material UI
 
-https://ianseto-portfolio.netlify.app/
+https://setoi1.github.io/Portfolio/
 
-Hosted with Netlify
+Hosted with Github Pages 
