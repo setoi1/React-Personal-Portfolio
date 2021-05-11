@@ -1,5 +1,9 @@
 body {
   font-family: 'Roboto';
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 .App {
@@ -8,12 +12,12 @@ body {
 
 /*-------------------------*/
 
-.default-navbar-nav {
+.navbar-nav {
   height: 5vh;
   background-color: black;
 }
 
-  .default-navbar-navlink {
+  .navbar-navlink {
     display: flex;
     align-items: center;
     padding-left: 24px;
@@ -24,18 +28,18 @@ body {
     cursor: pointer;
   }
 
-  .default-navbar-navlink:last-child {
+  .navbar-navlink:last-child {
+    color: rgb(65, 62, 62);
     margin-left: auto;
   }
 
-  .default-navbar-navlink:hover, .default-navbar-navlink:active {
+  .navbar-navlink:hover, .navbar-navlink:active {
     color: rgb(163, 161, 161);
   }
 
   .navbar-icon {
     color: white;
   }
-
 
 .section-header-text {
   display: flex;
@@ -69,11 +73,12 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-left: 30rem;
-  margin-right: 30rem;
+
 } 
 
   .about-container {
+    margin-left: 30rem;
+    margin-right: 30rem;
     color: white;
   }
 
@@ -87,10 +92,6 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-
-  .projects-container {
-
-  }
 
   .projects-container-items {
     display: flex;
