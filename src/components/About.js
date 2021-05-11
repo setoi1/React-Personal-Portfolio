@@ -17,8 +17,8 @@ const About = () => {
         </div>
         <div className="page-transition">
           <Link className="project-section-link"  to="projects-section" spy={true} smooth={true} duration={750}>
-            <Button className="projects-arrow-button"> 
-              <ArrowDropDownCircleIcon className="projects-arrow-icon" />
+            <Button> 
+              <ArrowDropDownCircleIcon className="page-transition"/>
             </Button>
           </Link>
         </div>
