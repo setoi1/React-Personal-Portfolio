@@ -23,7 +23,7 @@ const ProjectCard = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button className="link-button" size="small" href={props.link} target="_blank">
+        <Button className="project-card-link-button" size="small" href={props.link} target="_blank">
           Link
         </Button>
       </CardActions>
