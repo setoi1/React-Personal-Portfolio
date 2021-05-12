@@ -6,6 +6,10 @@ body {
   overflow-x: hidden; 
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   background-color: #131313;
 }
@@ -107,9 +111,15 @@ body {
       }
 
         .project-card-container {
-          width: 200px;
-          height: 300px;;
+          display: flex;
+          flex-direction: column;
+          width: 256px;
+          height: 384px;
         }
+        
+          .project-card-actions {
+            margin-top: auto;
+          }
 
 /*-------------------------*/
 
