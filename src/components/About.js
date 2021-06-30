@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="about-description">
           <p>
-            Hello! My name is Ian Seto, currently a Junior at Wentworth Institute of Technology studying Computer Science for my major. I am passionate for learning new technologies and building well-designed applications using various languages such as JavaScript, React, Java, and Python.
+            Hello! My name is Ian Seto, currently a unior at Wentworth Institute of Technology studying Computer Science for my major. I am passionate for learning new technologies and building well-designed applications using various languages such as JavaScript, React, Java, and Python.
           </p>
         </div>
         <div className="page-transition">
