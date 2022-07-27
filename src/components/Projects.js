@@ -15,6 +15,15 @@ const Projects = () => {
         <Grid className="projects-container-items" container spacing={10}>
           <Grid item>
             <ProjectCard 
+              title="SwiftAPI" 
+              techStack="JavaScript, ReactJS, ExpressJS, MongoDB"
+              date="Summer 2022"
+              description="A platform for developers to monetize their APIs and for users to purchase APIs in just a few clicks."
+              link="https://github.com/andrewgalvin/SwiftAPI"
+            />
+          </Grid>
+          <Grid item>
+            <ProjectCard 
               title="Finance Manager" 
               techStack="Python" 
               date="Spring 2021"
@@ -31,15 +40,6 @@ const Projects = () => {
               description="A remixed version of the popular board game Connect 4 featuring a different style of rulesets"
               link="https://github.com/setoi1/Connect4Ahead"
               logo="C:\Users\iseto\Desktop\vscode\JavaScript\Portfolio\src\images\java-logo.jpg"
-            />
-          </Grid>
-          <Grid item>
-            <ProjectCard 
-              title="Business Manager" 
-              techStack="JavaScript, React"
-              date="Summer 2021"
-              description="Work in Progress"
-              link=""
             />
           </Grid>
         </Grid>
