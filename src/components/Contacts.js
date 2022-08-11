@@ -14,16 +14,23 @@ const Contacts = () => {
             <li className="contacts-list-item">
               <a className="contacts-item-link" href="mailto:i.seto00@gmail.com" rel="noreferrer" target="_blank">
                 <MailIcon />
+                i.seto00@gmail.com
               </a>
             </li>
             <li className="contacts-list-item">
-              <a className="contacts-item-link" href="https://www.linkedin.com/in/ianseto/" rel="noreferrer" target="_blank">
+              <a className="contacts-item-link" href="https://www.linkedin.com/in/ianseto" rel="noreferrer" target="_blank">
                 <LinkedInIcon />
+              </a>
+              <a className='contacts-item-link' href="https://www.linkedin.com/in/ianseto" rel="noreferrer" target="_blank">
+                https://www.linkedin.com/in/ianseto
               </a>
             </li>
             <li className="contacts-list-item">
               <a className="contacts-item-link" href="https://github.com/setoi1" rel="noreferrer" target="_blank">
                 <GitHubIcon />
+              </a>
+              <a className='contacts-item-link' href="https://github.com/setoi1" rel="noreferrer" target="_blank">
+                https://github.com/setoi1
               </a>
             </li>
           </ul>
