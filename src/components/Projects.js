@@ -45,14 +45,4 @@ const Projects = () => {
   );
 };
 
-
-
-/*
-      <Grid className="project-grid-container" container spacing={1}>
-        <Grid className="project-row-container" container item xs={4} spacing={6}>
-          <Row />
-        </Grid>
-      </Grid>
-*/
-
 export default Projects;
