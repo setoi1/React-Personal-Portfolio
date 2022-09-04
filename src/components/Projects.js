@@ -29,7 +29,6 @@ const Projects = () => {
               date="Spring 2021"
               description="A simple Finance Managing Application built with Python and tkinter." 
               link="https://github.com/marinom1/FiMan-Financial_Manager"
-              logo="C:\Users\iseto\Desktop\vscode\JavaScript\Portfolio\src\images\python-logo.jpg"
             />
           </Grid>
         </Grid>
