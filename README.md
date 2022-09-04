@@ -1,7 +1,5 @@
 # React Personal Portfolio
 
-Built with React, JavaScript, HTML, CSS, and Material UI
+Built with React, JavaScript, HTML, and CSS
 
-https://setoi1.github.io/Portfolio/
-
-Hosted with Github Pages 
+https://setoi1.github.io/portfolio/
