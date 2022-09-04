@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link className="navbar-navlink"  to="/projects">
           <Typography>Projects</Typography>
         </Link>
-        <Link className="navbar-navlink"  to="/contacts" spy={true} smooth={true} duration={750}>
+        <Link className="navbar-navlink"  to="/contacts">
           <Typography>Contacts</Typography>
         </Link>
       </Toolbar>

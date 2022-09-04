@@ -9,7 +9,14 @@ const About = () => {
         </div>
         <div className="about-description">
           <p className="about-description-paragraph">
-            Hi! My name is Ian Seto and I'm a recent graduate from Wentworth Institute of Technology with a bachelors degree in Computer Sciecne. I'm passionate for learning new technologies and building well-designed applications using various languages such as JavaScript / TypeScript, React, Java, and Python. A few of my hobbies include gaming, traveling, and listening to music.
+            Hi! My name is Ian Seto and I'm a recent graduate from Wentworth Institute of Technology with degree in Computer Science. 
+          </p>
+          <p className="about-description-paragraph">
+            I have a passion for learning new technologies and building well-designed applications using various languages and frameworks such as 
+            JavaScript / TypeScript, React, Python, and Java.
+          </p>
+          <p className="about-description-paragraph">
+            A few of my hobbies include gaming, traveling, and listening to music.
           </p>
         </div>
       </div>

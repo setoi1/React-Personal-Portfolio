@@ -20,6 +20,16 @@ body::-webkit-scrollbar {
 
 }
 
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: .50;
+}
+
 /*-------------------------*/
 
 .navbar-nav {
@@ -76,7 +86,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
@@ -149,12 +159,12 @@ body::-webkit-scrollbar {
   .contacts-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
   }
 
   .contacts-list {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -163,7 +173,7 @@ body::-webkit-scrollbar {
   .contacts-list-item {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     margin-left: 1rem;
     margin-right: 1rem;
     text-decoration: none;
