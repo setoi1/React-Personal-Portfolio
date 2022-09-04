@@ -2,4 +2,4 @@
 
 Built with React, JavaScript, HTML, and CSS
 
-https://setoi1.github.io/portfolio/
+https://setoi1.github.io
