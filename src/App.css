@@ -75,7 +75,7 @@ video {
 }
 
   .landing-page .section-header-text {
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   .landing-page .section-header-text h3 {
@@ -87,6 +87,8 @@ video {
   .landing-page .landing-button {
     margin: auto;
     width: 75px;
+    color: white;
+    border-color: white;
   }
 
 /*-------------------------*/
@@ -218,7 +220,6 @@ video {
     display: flex;
     flex-direction: column;
   }
-
 
     .landing-page .section-header-text {
       margin-top: 50%;

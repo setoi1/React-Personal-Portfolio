@@ -7,7 +7,7 @@ const Landing = () => {
       <div className="section-header-text">
         <h3>Explore</h3>
       </div>
-      <Button className="landing-button" variant="contained" href="/about">
+      <Button className="landing-button" variant="outlined" href="/about">
         Enter
       </Button>
       <video autoPlay="autoplay" loop={true} muted id="myVideo">
