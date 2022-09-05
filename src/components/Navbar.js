@@ -9,16 +9,16 @@ const Navbar = () => {
     <AppBar className="navbar" color="primary">
       <Toolbar className="navbar-nav">
         <LanguageIcon className="navbar-icon" />
-        <Link className="navbar-navlink"  to="/">
+        <Link className="navbar-navlink" to="/">
           <Typography>Home</Typography>
         </Link>
-        <Link className="navbar-navlink"  to="/about">
+        <Link className="navbar-navlink" to="/about">
           <Typography>About</Typography>
         </Link>
-        <Link className="navbar-navlink"  to="/projects">
+        <Link className="navbar-navlink" to="/projects">
           <Typography>Projects</Typography>
         </Link>
-        <Link className="navbar-navlink"  to="/contacts">
+        <Link className="navbar-navlink" to="/contacts">
           <Typography>Contacts</Typography>
         </Link>
       </Toolbar>
