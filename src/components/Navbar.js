@@ -4,8 +4,9 @@ import { AppBar, Toolbar, Typography  } from '@material-ui/core';
 import LanguageIcon from '@material-ui/icons/Language';
 
 const Navbar = () => {
+
   return (
-    <AppBar>
+    <AppBar className="navbar" color="primary">
       <Toolbar className="navbar-nav">
         <LanguageIcon className="navbar-icon" />
         <Link className="navbar-navlink"  to="/">

@@ -1,9 +1,8 @@
 body {
   font-family: 'Roboto';
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
   overflow-x: hidden; 
+  padding-top: 7vh;
+  color: white;
   background-color: #181818;
 }
 
@@ -14,10 +13,6 @@ body {
   100% {
       opacity: 1;
   }
-}
-
-body::-webkit-scrollbar {
-
 }
 
 video {
@@ -32,60 +27,76 @@ video {
 
 /*-------------------------*/
 
-.navbar-nav {
-  height: 5vh;
-  background-color: black;
+.navbar {
+
 }
-
-  .navbar-icon {
-    color: white;
+  .navbar-nav {
+    background-color: black;
   }
 
-  .navbar-navlink {
-    display: flex;
-    align-items: center;
-    padding-left: 24px;
-    font-size: 20px;
-    color: white;
-    transition: 250ms;
-    text-decoration: none;
-    cursor: pointer;
-  }
+    .navbar-navlink {
+      display: flex;
+      align-items: center;
+      padding-left: 24px;
+      font-size: 20px;
+      color: white;
+      transition: 250ms;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
-  .navbar-navlink:hover, .navbar-navlink:active {
-    color: rgb(163, 161, 161);
-  }
+    .navbar-navlink:hover, .navbar-navlink:active {
+      color: rgb(163, 161, 161);
+    }
 
 /*-------------------------*/
 
 .section-header-text {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: calc(10px + 2vmin);
+}
+
+.section-header-text h3 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 /*-------------------------*/
 
-.landing-section {
+.landing-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
 
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
+  .landing-page .section-header-text {
+    margin-top: 20%;
+  }
+
+  .landing-page .section-header-text h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .landing-page .landing-button {
+    margin: auto;
+    width: 75px;
+  }
+
 /*-------------------------*/
 
-.about-section {
-  height: 100vh;
+.about-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: left;
 
   animation: fadeInAnimation ease 2s;
@@ -93,20 +104,13 @@ video {
   animation-fill-mode: forwards;
 } 
 
-  .about-container {
-    margin-left: 30rem;
-    margin-right: 30rem;
-    color: white;
+  .about-description p {
+    font-size: 25px;
   }
-
-    .about-description p {
-      font-size: 30px;
-    }
 
 /*-------------------------*/
 
-.projects-section {
-  height: 100vh;
+.projects-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,88 +120,85 @@ video {
   animation-fill-mode: forwards;
 }
 
-  .projects-container-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .projects-container {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
-    .project-grid-container {
+    .projects-container-items {
       display: flex;
+      flex-direction: row;
       justify-content: center;
     }
 
-      .project-row-container {
+      .project-grid-container {
         display: flex;
         justify-content: center;
       }
 
-        .project-card-container {
+        .project-row-container {
           display: flex;
-          flex-direction: column;
-          width: 256px;
-          height: 384px;
+          justify-content: center;
         }
-        
-          .project-card-actions {
-            margin-top: auto;
+
+          .project-card-container {
+            display: flex;
+            flex-direction: column;
+            width: 256px;
+            height: 384px;
           }
+          
+            .project-card-actions {
+              margin-top: auto;
+            }
 
 /*-------------------------*/
 
-.contacts-section {
-  height: 100vh;
+.contacts-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 15%;
 
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-  .contacts-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-  }
-
   .contacts-list {
     display: flex;
     justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
+    padding-right: 40px;
   }
 
-  .contacts-list-item {
-    display: flex;
-    align-items: center;
+    .contacts-list-item {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      justify-content: center;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
 
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-decoration: none;
-  }
+    .contacts-item-link {
+      display: flex;
+      color: white;
+      text-decoration: none;
+    }
 
-  .contacts-item-link {
-    display: flex;
+    .contacts-list-item:link {
+      text-decoration: none;
+    }
 
-    color: white;
-    text-decoration: none;
-  }
-
-  .contacts-list-item:link {
-    text-decoration: none;
-  }
-
-  .contacts-list-item:visited {
-    text-decoration: none;
-  }
+    .contacts-list-item:visited {
+      text-decoration: none;
+    }
 
 /*-------------------------*/
 
 .footer-section {
-  height: 250px;
+  height: 10%;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -207,7 +208,86 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
   }
 
 /*-------------------------*/
+
+@media screen and (max-width: 480px) {
+
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+    .landing-page .section-header-text {
+      margin-top: 50%;
+    }
+
+  .about-page {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+    .about-description {
+      
+    }
+
+      .about-description p {
+        font-size: 20px;
+      }
+
+
+
+  .projects-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+    .projects-container-items {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+      .project-grid-container {
+        display: flex;
+        justify-content: center;
+      }
+
+        .project-row-container {
+          display: flex;
+          justify-content: center;
+        }
+
+          .project-card-container {
+            display: flex;
+            flex-direction: column;
+            width: 256px;
+            height: 384px;
+          }
+
+
+
+  .contacts-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+    .contacts-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      list-style-type: none;
+      margin-left: 25%;
+      margin-right: 25%; 
+    }
+
+      .contacts-list-item {
+        display: flex;
+        text-decoration: none;
+      }
+
+}
