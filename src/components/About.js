@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 
 const About = () => {
   return (
@@ -18,6 +19,10 @@ const About = () => {
           A few of my hobbies include gaming, traveling, and listening to music.
         </p>
       </div>
+      <h1>Click here to check out some of my projects.</h1>
+      <Button variant="contained" href="/projects">
+        HERE
+      </Button>
     </div>
   );
 }

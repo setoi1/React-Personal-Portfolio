@@ -1,10 +1,14 @@
 body {
-  font-family: 'Roboto';
-  overflow-x: hidden; 
+  font-family: "Trebuchet MS", 'Futura';
+  overflow-x: hidden;
   padding-top: 7vh;
   color: white;
   background-color: #181818;
 }
+
+/*-------------------------/*
+/* Page fade in styling */
+/*-------------------------*/
 
 @keyframes fadeInAnimation {
   0% {
@@ -15,40 +19,56 @@ body {
   }
 }
 
-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  opacity: .50;
-}
-
+/*-------------------------/*
+/* Navbar styling */
 /*-------------------------*/
 
 .navbar {
 
 }
   .navbar-nav {
+
     background-color: black;
   }
 
-    .navbar-navlink {
+    .navbar-navlinks {
       display: flex;
-      align-items: center;
-      padding-left: 24px;
-      font-size: 20px;
-      color: white;
-      transition: 250ms;
-      text-decoration: none;
-      cursor: pointer;
     }
 
-    .navbar-navlink:hover, .navbar-navlink:active {
-      color: rgb(163, 161, 161);
-    }
+      .navbar-icon {
+        padding-left: 48px;
+        padding-right: 24px;
+      }
 
+      .navbar-contacts {
+        display: flex;
+        padding-left: 24px;
+      }
+
+      .navbar-contacts-icons {
+        margin-right: 24px;
+      }
+
+      .navbar-navlink {
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 20px;
+        color: white;
+        transition: 250ms;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .navbar-navlink:hover, .navbar-navlink:active {
+        color: rgb(163, 161, 161);
+      }
+
+
+
+/*-------------------------*/
+/* Page header styling */
 /*-------------------------*/
 
 .section-header-text {
@@ -63,6 +83,18 @@ video {
 }
 
 /*-------------------------*/
+/* Landing page styling */
+/*-------------------------*/
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: .50;
+}
 
 .landing-page {
   display: flex;
@@ -92,6 +124,8 @@ video {
   }
 
 /*-------------------------*/
+/* About page styling */
+/*-------------------------*/
 
 .about-page {
   display: flex;
@@ -111,6 +145,8 @@ video {
     font-size: 25px;
   }
 
+/*-------------------------*/
+/* Projects page styling */
 /*-------------------------*/
 
 .projects-page {
@@ -156,6 +192,8 @@ video {
             }
 
 /*-------------------------*/
+/* Contacts page styling */
+/*-------------------------*/
 
 .contacts-page {
   display: flex;
@@ -184,20 +222,26 @@ video {
       margin-right: 25px;
     }
 
-    .contacts-item-link {
-      display: flex;
-      color: white;
-      text-decoration: none;
-    }
+      .contacts-item-link {
+        display: flex;
+        color: white;
+        text-decoration: none;
+      }
 
-    .contacts-list-item:link {
-      text-decoration: none;
-    }
+      .contacts-list-item:link {
+        text-decoration: none;
+      }
 
-    .contacts-list-item:visited {
-      text-decoration: none;
-    }
+      .contacts-list-item:visited {
+        text-decoration: none;
+      }
 
+      .github-icon {
+        padding-right: 2px;
+      }
+
+/*-------------------------*/
+/* Contacts page styling */
 /*-------------------------*/
 
 .footer-section {
@@ -214,8 +258,42 @@ video {
   }
 
 /*-------------------------*/
+/* Media query styling  */
+/*-------------------------*/
 
 @media screen and (max-width: 480px) {
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-main-icon {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-navlink {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 20px;
+    color: white;
+    transition: 250ms;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .navbar-contacts {
+    padding-left: 6px;
+  }
+
+    .navbar-contacts-icons {
+      margin-right: 6px;
+    }
+
+
 
   .landing-page {
     display: flex;
@@ -226,12 +304,14 @@ video {
       margin-top: 50%;
     }
 
+
+
   .about-page {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 25%;
+    margin-top: 10%;
   }
 
     .about-description {
@@ -293,5 +373,9 @@ video {
         display: flex;
         text-decoration: none;
       }
+
+        .contacts-item-link-github {
+          margin-left: 25px;
+        }
 
 }
